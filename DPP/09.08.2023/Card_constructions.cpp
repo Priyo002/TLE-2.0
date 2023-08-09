@@ -3,7 +3,6 @@ using namespace std;
 
 #define ll long long
 #define endl '\n'
-#define vi for(int i=0;i<n;i++)
 
 void solve() {
 	int n;
@@ -17,9 +16,6 @@ void solve() {
 		else break;
 		h++;
 	}
-	// for (int i = 0; i < v.size(); i++) cout << v[i] << " ";
-	// cout << endl;
-	// cout << endl;
 	while (n >= 2) {
 		int i;
 		for (i = 0; i < v.size(); i++) {
