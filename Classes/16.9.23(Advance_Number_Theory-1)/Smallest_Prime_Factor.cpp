@@ -31,11 +31,13 @@ void f(int n) {
 	cout << endl;
 }
 
+
 int32_t main() {
 
 	init();
 	clock_t time_req;
 	time_req = clock();
+
 	int n;
 	cin >> n;
 	spf.resize(n + 1);
